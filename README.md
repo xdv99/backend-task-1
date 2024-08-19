@@ -34,6 +34,15 @@ Build a server application, that has two endpoints related to user.
 - Install dependicies `cd backend-task-1` & `npm install`.
 - `npm run start`.
 
+```json
+// dist/.env
+DB_HOST=localhost;
+DB_USER=user;
+DB_PASSWORD=password;
+DATABASE=database;
+DB_PORT=5432;
+```
+
 ## MVC
 
 File structure based on **M**odel **V**iew **C**ontroller design to seperate application logic.
